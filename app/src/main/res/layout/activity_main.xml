@@ -9,28 +9,30 @@
 
 
     <!--Textview is used here to add the text which we want to display on the screen.Here important attributes are:-
-    i)   android:singleLine="true" so that our text will show only in one line
-    ii)  android:ellipsize="marquee" to add marquee to our text
-    iii) android:marqueeRepeatLimit="marquee_forever" so that marquee will repeat infinitely
-    iv)  android:scrollHorizontally="true" so that mqruee will scroll horizontally
+    i)   android:singleLine="true"... so that our text will show only in one line
+    ii)  android:ellipsize="marquee"... to add marquee to our text
+    iii) android:marqueeRepeatLimit="marquee_forever"...so that marquee will repeat infinitely
+    iv)  android:scrollHorizontally="true"... so that text will scroll horizontally
 
     -->
 
 
     <TextView
+        android:id="@+id/marqueeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_marginTop="25sp"
+        android:padding="10dp"
         android:textStyle="bold"
+        android:text="Hello guys !! Welcome to GeeksforGeeks Portal !!"
         android:singleLine="true"
-        android:text="Welcome to GeeksforGeeks Portal!!"
         android:ellipsize="marquee"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
-        android:padding="10dp"
 
-         />
+
+        />
 
 
 </RelativeLayout>
